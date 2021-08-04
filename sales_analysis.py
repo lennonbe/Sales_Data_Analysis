@@ -194,11 +194,12 @@ for e in monthly_sales_data:
     plt.xticks(hours)
     plt.grid()
     plt.ylim([0, 1500])
+    '../Sales_Data_Analysis/Grid Plots/GridPlot'
+    plt.savefig('../Sales_Data_Analysis/Grid Plots/GridPlot' + str(e) + '.png')
     plt.show()
 
 '''
 After looking at all months we realize the peak for sales is between 10 to 12, so a good time to place
 an ad may be between 9 to 11.
 '''
-
 
